@@ -6,7 +6,7 @@ const DATA = {
   energy: 50,         // Current player's energy
   gold: 100,          // Player's gold amount
   result: [0, 0, 0],  // Current slot machine values
-  bet: 1,             // Current bet amount (range 1-5)
+  bet: 1,             // Current bet amount (range 1-15)
   message: "Welcome to Slot Machine! Press SPACE to spin!", // Game messages
   spinning: false,    // Whether slots are currently spinning
   energyRecoveryTimer: null,    // Timer ID for energy recovery
